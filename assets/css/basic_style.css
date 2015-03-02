@@ -1,0 +1,157 @@
+body{
+	margin: 0;
+	background: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+	border: none;
+}
+
+a{
+	color: #777;
+}
+
+.nowrap{
+	white-space: nowrap;
+	width: 1px;
+}
+
+.link_image{
+    text-decoration: none;
+	font-size: 14px;
+}
+ 
+.link_image img{
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+span.obrigatorio{
+	color: #F00;
+}
+
+/***** FORMULÁRIOS *****/
+
+input:focus, textarea:focus{
+	outline: none;
+}
+
+.form_field, form input[type="text"], form input[type="password"], form textarea, form select{
+	border: 1px solid #A8A8A8;
+	border-radius: 2px;
+	padding: 3px 5px;
+}
+
+.purple_button{
+	background-color: #444698;
+	color: white;
+	padding: 3px 10px;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.purple_button:hover{
+	background-color: #6466B8;
+}
+
+.purple_button:active{
+	background-color: #343688;
+}
+
+form label{
+	color: #919191;
+	font-size: 12px;
+}
+
+/***** FIM DE FORMULÁRIOS *****/
+
+/***** BREADCRUMB *****/
+
+ul.breadcrumb{
+	list-style: none;
+	padding: 0px;
+	margin: 13px 0px 40px 0px;
+}
+
+ul.breadcrumb li{
+	float: left;
+	background: url(../images/template/breadcrumb.png) 0px 6px no-repeat;
+	padding-left: 5px;
+	margin-left: 10px;
+	font-size: 10px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+ul.breadcrumb li a{
+	text-decoration: none;
+	color: #777;
+}
+
+/***** FIM DO BREADCRUMB *****/
+
+/***** TABELA *****/
+ 
+table.list {
+    border: none;
+}
+  
+table.list tbody td, table.list tbody tr td {
+    border-bottom: solid 1px #ddd;
+    font-size: 12px;
+    padding: 4px 4px 6px 3px;
+}
+  
+table.list thead th {
+    border: none;
+    border-bottom:1px solid #999999;
+    font-size:11px;
+    font-weight:bold;
+    padding:0pt 3px 3px;
+    text-transform:uppercase;
+}
+  
+table.list thead th a {
+    text-decoration: none;
+}
+ 
+table.list tbody tr:hover{
+    background-color: #EEE;
+}
+ 
+table.list tbody tr.nohover:hover{
+    background-color: transparent;
+}
+ 
+/***** FIM DA TABELA *****/
+
+/***** PAGINAÇÃO *****/
+ 
+a.paginacao, a.paginacao_setas{
+    color: #FFFFFF;
+    border: 1px solid #AEAEAE;
+    padding: 3px 6px;
+    margin-right: 2px;
+    margin-left: 2px;
+    background-color: #444698;
+    text-decoration: none;
+    font-size: 11px;
+}
+ 
+a.paginacao:hover, a.paginacao_setas:hover{
+    background-color: #6466B8;
+}
+ 
+span.paginacao_selecionada{
+    color: #000;
+    border: 1px solid #AEAEAE;
+    padding: 3px 6px;
+    margin-right: 2px;
+    margin-left: 2px;
+    background-color: #FFF;
+    text-decoration: none;
+    font-size: 11px;
+}
+ 
+/***** FIM DA PAGINAÇÃO *****/
